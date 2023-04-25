@@ -1,6 +1,8 @@
 import React from 'react';
 
-const CalculatorBtn = ({ bgColor, val, width }) => (
+const CalculatorBtn = ({
+  bgColor, val, width, onClickFun, stayFocused,
+}) => (
   <div
     className={`${
       width === 1 ? 'w-1/4' : 'w-1/2'
@@ -8,8 +10,11 @@ const CalculatorBtn = ({ bgColor, val, width }) => (
   >
     <button
       type="button"
-      className={`h-full w-full flex items-center ${bgColor} justify-center focus:outline-none`}
+      className={`h-full w-full flex items-center ${bgColor} justify-center transition-all ease-in ${
+        stayFocused ? 'focus:bg-gray-100 focus:text-black' : 'active:bg-gray-500'
+      } `}
       name={`${val}`}
+      onClick={onClickFun}
     >
       {val}
     </button>
