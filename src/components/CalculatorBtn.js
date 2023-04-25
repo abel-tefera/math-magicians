@@ -10,7 +10,7 @@ const CalculatorBtn = ({
   >
     <button
       type="button"
-      className={`h-full w-full flex items-center ${bgColor} justify-center transition-all ease-in ${
+      className={`h-full w-full flex items-center ${bgColor} justify-center transition-all ease-in hover:opacity-80 ${
         stayFocused ? 'focus:bg-gray-100 focus:text-black' : 'active:bg-gray-500'
       } `}
       name={`${val}`}
