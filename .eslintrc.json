@@ -25,7 +25,8 @@
     "no-shadow": "off",
     "react/prop-types": "off",
     "react/no-array-index-key": "off",
-    "no-nested-ternary": "off"
+    "no-nested-ternary": "off",
+    "no-unused-vars": "off"
   },
   "overrides": [
     {

@@ -29,7 +29,7 @@ const Quotes = () => {
   }, [setQuote]);
 
   return loading ? (
-    <div role="status w-full mt-10">
+    <div role="status" className="mt-10">
       <svg
         aria-hidden="true"
         className="w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
