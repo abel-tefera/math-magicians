@@ -29,7 +29,7 @@ const Quotes = () => {
   }, [setQuote]);
 
   return loading ? (
-    <div role="status" className="mt-10">
+    <div role="status" className="mt-10 mx-16">
       <svg
         aria-hidden="true"
         className="w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
@@ -49,7 +49,7 @@ const Quotes = () => {
       <span className="sr-only">Loading...</span>
     </div>
   ) : (
-    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 self-start text-start cursor-pointer mt-10">
+    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 self-start text-start cursor-pointer mt-10 mx-16">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         {quote && quote.author}
       </h5>
