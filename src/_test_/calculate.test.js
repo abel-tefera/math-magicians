@@ -19,6 +19,14 @@ describe('calculator UI testing', () => {
 
     expect(answer.innerHTML).toBe('18');
   });
+
+  test('clicking the button toggles the number', () => {
+    render(<Calculator />);
+    const button = screen.getByTestId('9');
+    const answer = screen.getByTestId('in');
+    fireEvent.click(button);
+    expect(answer.innerHTML).toBe('9');
+  });
 });
 
 afterEach(cleanup);
