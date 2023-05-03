@@ -72,4 +72,12 @@ describe('testing calculations', () => {
 
     expect(res).toEqual(obj);
   });
+
+  test('return decimal number', () => {
+    let obj = { next: null };
+    obj = calculate(obj, '1');
+    obj = calculate(obj, '.');
+    obj = calculate(obj, '5');
+    expect(obj.next).toEqual('1.5');
+  });
 });
