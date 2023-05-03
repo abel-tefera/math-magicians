@@ -32,5 +32,21 @@ describe('calculator UI testing', () => {
 afterEach(cleanup);
 
 describe('testing calculations', () => {
+  test('multiplying two numbers', () => {
+    let obj = { total: null };
+    obj = calculate(obj, '14');
+    obj = calculate(obj, '*');
+    obj = calculate(obj, '2');
+    obj = calculate(obj, '=');
+    expect(obj.total).toEqual('28');
+  });
 
+  test('dividing two numbers', () => {
+    let obj = { total: null };
+    obj = calculate(obj, '14');
+    obj = calculate(obj, '÷');
+    obj = calculate(obj, '7');
+    obj = calculate(obj, '=');
+    expect(obj.total).toEqual('2');
+  });
 });
