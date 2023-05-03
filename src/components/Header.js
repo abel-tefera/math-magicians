@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 
 const Header = () => (
   <>
-    <nav className="flex flex-row justify-between mx-16 my-8">
+    <nav className="flex flex-row justify-between px-16 my-8">
       <h1 className="text-center text-4xl">Math Magicians</h1>
       <ul className="flex flex-row">
         <li className="px-3">
