@@ -15,6 +15,7 @@ const CalculatorBtn = ({
       } `}
       name={`${val}`}
       onClick={onClickFun}
+      data-testid={val}
     >
       {val}
     </button>
