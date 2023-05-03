@@ -49,4 +49,13 @@ describe('testing calculations', () => {
     obj = calculate(obj, '=');
     expect(obj.total).toEqual('2');
   });
+
+  test('dividing by 0', () => {
+    let obj = { total: null };
+    obj = calculate(obj, '8');
+    obj = calculate(obj, '÷');
+    obj = calculate(obj, '0');
+    obj = calculate(obj, '=');
+    expect(obj.total).toMatch("Can't divide by 0.");
+  });
 });
