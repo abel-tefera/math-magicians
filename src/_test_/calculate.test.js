@@ -58,4 +58,18 @@ describe('testing calculations', () => {
     obj = calculate(obj, '=');
     expect(obj.total).toMatch("Can't divide by 0.");
   });
+
+  test('AC test', () => {
+    const obj = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+
+    const buttonName = 'AC';
+
+    const res = calculate(obj, buttonName);
+
+    expect(res).toEqual(obj);
+  });
 });
