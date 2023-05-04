@@ -2,12 +2,33 @@ import React from 'react';
 import {
   render, screen, cleanup, fireEvent,
 } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 
 import calculate from '../logic/calculate';
 import Calculator from '../components/Calculator';
+import App from '../App';
+import Quotes from '../components/Quotes';
+import Welcome from '../components/Welcome';
+
+describe('snapshot testing', () => {
+  it('Matches DOM Snapshot', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Can create Quoutes', () => {
+    const tree = renderer.create(<Quotes />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Can display welcome page', () => {
+    const tree = renderer.create(<Welcome />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
 
 describe('calculator UI testing', () => {
-  test('2 x 3', () => {
+  test('2 * 3', () => {
     render(<Calculator />);
 
     const answer = screen.getByTestId('in');
