@@ -13,7 +13,6 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo](#-live-demo)
-  - [Video Presentation](#video-presentation)
 - [💻 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -60,11 +59,7 @@
 
 ## 🚀 Live Demo
 
-[Coming Soon](#readme-top)
-
-## Video Presentation <a name="video-presentation"></a>
-
-N/A
+[Math Magicians](https://math-magicians-5y9o.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
