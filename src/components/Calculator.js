@@ -11,13 +11,10 @@ const Calculator = () => {
   });
 
   return (
-    <div className="flex flex-row justify-between mx-16">
-      <div>
-        <h1 className="text-3xl">Let&apos;s do some Math!</h1>
-      </div>
-      <div className="overflow-hidden mb-2 border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
-        <div className="self-center">
-          <div className="pt-8 px-5 pb-8 text-white bg-gray-500 text-right text-3xl">
+    <div className="md:px-16 px-2">
+      <div className="mx-auto overflow-hidden mb-2 border rounded-lg w-full md:w-1/2">
+        <div className="">
+          <div className="pt-8 px-5 pb-8 text-white bg-gray-500 text-right text-3xl" data-testid="in">
             {calc.next === null
               ? calc.total === null
                 ? 0

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Welcome = () => (
-  <div className="container ml-16">
+  <div className="md:px-16 px-2">
     <p className="text-2xl my-2">Welcome to Math Magicians</p>
     <p className="text-lg">
       Ullamco elit dolor consequat eu voluptate velit magna ad proident fugiat

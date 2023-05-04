@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing Can create Quoutes 1`] = `
+<div
+  className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 self-start text-start cursor-pointer mt-10 md:ml-16 mx-2"
+>
+  <h5
+    className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+  />
+  <p
+    className="font-normal text-gray-700 dark:text-gray-400"
+  />
+</div>
+`;
+
+exports[`snapshot testing Can display welcome page 1`] = `
+<div
+  className="md:px-16 px-2"
+>
+  <p
+    className="text-2xl my-2"
+  >
+    Welcome to Math Magicians
+  </p>
+  <p
+    className="text-lg"
+  >
+    Ullamco elit dolor consequat eu voluptate velit magna ad proident fugiat voluptate do. Esse quis laborum voluptate magna mollit et fugiat excepteur ipsum. Sunt irure qui ut veniam laborum non consectetur ea. Non eiusmod consequat nostrud amet Lorem sit minim ipsum ea eu.
+    <br />
+     
+    <br />
+    Voluptate irure qui duis ex sit mollit id deserunt. Laborum exercitation exercitation esse aute mollit labore labore voluptate velit consectetur do fugiat. Laboris veniam amet cillum velit et voluptate irure excepteur duis ipsum ex officia. Sint Lorem culpa do sit laboris anim voluptate nisi minim.
+  </p>
+</div>
+`;
+
+exports[`snapshot testing Matches DOM Snapshot 1`] = `
+<div
+  className="md:px-16 px-2"
+>
+  <div
+    className="mx-auto overflow-hidden mb-2 border rounded-lg w-full md:w-1/2"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="pt-8 px-5 pb-8 text-white bg-gray-500 text-right text-3xl"
+        data-testid="in"
+      >
+        0
+      </div>
+      <div
+        className="flex items-stretch h-24 w-full"
+      >
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="AC"
+            name="AC"
+            onClick={[Function]}
+            type="button"
+          >
+            AC
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="+/-"
+            name="+/-"
+            onClick={[Function]}
+            type="button"
+          >
+            +/-
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 focus:bg-gray-100 focus:text-black "
+            data-testid="%"
+            name="%"
+            onClick={[Function]}
+            type="button"
+          >
+            %
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-orange-500 justify-center transition-all ease-in hover:opacity-80 focus:bg-gray-100 focus:text-black "
+            data-testid="÷"
+            name="÷"
+            onClick={[Function]}
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+      </div>
+      <div
+        className="flex items-stretch h-24 w-full"
+      >
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="7"
+            name="7"
+            onClick={[Function]}
+            type="button"
+          >
+            7
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="8"
+            name="8"
+            onClick={[Function]}
+            type="button"
+          >
+            8
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="9"
+            name="9"
+            onClick={[Function]}
+            type="button"
+          >
+            9
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-orange-500 justify-center transition-all ease-in hover:opacity-80 focus:bg-gray-100 focus:text-black "
+            data-testid="*"
+            name="*"
+            onClick={[Function]}
+            type="button"
+          >
+            *
+          </button>
+        </div>
+      </div>
+      <div
+        className="flex items-stretch h-24 w-full"
+      >
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="4"
+            name="4"
+            onClick={[Function]}
+            type="button"
+          >
+            4
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="5"
+            name="5"
+            onClick={[Function]}
+            type="button"
+          >
+            5
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="6"
+            name="6"
+            onClick={[Function]}
+            type="button"
+          >
+            6
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-orange-500 justify-center transition-all ease-in hover:opacity-80 focus:bg-gray-100 focus:text-black "
+            data-testid="-"
+            name="-"
+            onClick={[Function]}
+            type="button"
+          >
+            -
+          </button>
+        </div>
+      </div>
+      <div
+        className="flex items-stretch h-24 w-full"
+      >
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="1"
+            name="1"
+            onClick={[Function]}
+            type="button"
+          >
+            1
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="2"
+            name="2"
+            onClick={[Function]}
+            type="button"
+          >
+            2
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="3"
+            name="3"
+            onClick={[Function]}
+            type="button"
+          >
+            3
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-orange-500 justify-center transition-all ease-in hover:opacity-80 focus:bg-gray-100 focus:text-black "
+            data-testid="+"
+            name="+"
+            onClick={[Function]}
+            type="button"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="flex items-stretch h-24 w-full"
+      >
+        <div
+          className="w-1/2 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="0"
+            name="0"
+            onClick={[Function]}
+            type="button"
+          >
+            0
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-gray-300 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="."
+            name="."
+            onClick={[Function]}
+            type="button"
+          >
+            .
+          </button>
+        </div>
+        <div
+          className="w-1/4 justify-center flex items-center text-black text-2xl font-semibold border border-solid"
+        >
+          <button
+            className="h-full w-full flex items-center bg-orange-500 justify-center transition-all ease-in hover:opacity-80 active:bg-gray-500 "
+            data-testid="="
+            name="="
+            onClick={[Function]}
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
