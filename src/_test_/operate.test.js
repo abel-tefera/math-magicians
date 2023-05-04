@@ -7,12 +7,12 @@ describe('Tests operating ', () => {
   });
 
   test('Test divided by 15 / 3 to get 5', () => {
-    const product = operate(15, 3, '/');
+    const product = operate(15, 3, '÷');
     expect(product).toBe('5');
   });
 
   test('Test multiply by 5 * 5 to get 25', () => {
-    const product = operate(5, 5, 'x');
+    const product = operate(5, 5, '*');
     expect(product).toBe('25');
   });
 
